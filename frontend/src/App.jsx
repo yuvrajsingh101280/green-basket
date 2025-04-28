@@ -1,7 +1,12 @@
 import React from "react";
+import CommingSoon from "./components/CommingSoon";
 
 const App = () => {
-  return <div>app</div>;
+  return (
+    <div>
+      <CommingSoon />
+    </div>
+  );
 };
 
 export default App;
