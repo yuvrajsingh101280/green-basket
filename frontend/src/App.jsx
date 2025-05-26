@@ -1,12 +1,8 @@
-import React from "react";
-import CommingSoon from "./components/CommingSoon";
+import React, { useContext } from "react";
+import { AppContext } from "./context/appContext";
 
 const App = () => {
-  return (
-    <div>
-      <CommingSoon />
-    </div>
-  );
+  return <div className="w-full h-screen"></div>;
 };
 
 export default App;
