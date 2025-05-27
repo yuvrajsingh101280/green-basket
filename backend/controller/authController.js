@@ -185,7 +185,7 @@ export const login = async (req, res) => {
 
         if (!email || !password) {
 
-            return res.status(400).json
+            return res.status(400).json({success:false, message:"All fields are required"})
 
         }
         const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
